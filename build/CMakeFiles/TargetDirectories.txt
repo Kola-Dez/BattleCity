@@ -1,3 +1,0 @@
-C:/Dvigatel/build/CMakeFiles/BattleCity.dir
-C:/Dvigatel/build/CMakeFiles/ALL_BUILD.dir
-C:/Dvigatel/build/CMakeFiles/ZERO_CHECK.dir
