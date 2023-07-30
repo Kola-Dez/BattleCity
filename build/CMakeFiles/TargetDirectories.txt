@@ -1,6 +1,0 @@
-C:/Dvigatel/BattleCity/build/CMakeFiles/BattleCity.dir
-C:/Dvigatel/BattleCity/build/CMakeFiles/ALL_BUILD.dir
-C:/Dvigatel/BattleCity/build/CMakeFiles/ZERO_CHECK.dir
-C:/Dvigatel/BattleCity/build/external/glfw/CMakeFiles/ALL_BUILD.dir
-C:/Dvigatel/BattleCity/build/external/glfw/src/CMakeFiles/glfw.dir
-C:/Dvigatel/BattleCity/build/external/glfw/src/CMakeFiles/update_mappings.dir
