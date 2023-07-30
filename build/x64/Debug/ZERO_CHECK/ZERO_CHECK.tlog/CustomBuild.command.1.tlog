@@ -1,0 +1,10 @@
+^C:\DVIGATEL\BATTLECITY\BUILD\CMAKEFILES\94118270F6DE7CF43B5CA7689BF30107\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dvigatel/BattleCity -BC:/Dvigatel/BattleCity/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Dvigatel/BattleCity/build/BattleCity.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

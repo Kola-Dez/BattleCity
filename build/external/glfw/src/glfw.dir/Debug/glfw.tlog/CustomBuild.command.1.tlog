@@ -1,0 +1,10 @@
+^C:\DVIGATEL\BATTLECITY\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dvigatel/BattleCity -BC:/Dvigatel/BattleCity/build --check-stamp-file C:/Dvigatel/BattleCity/build/external/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
